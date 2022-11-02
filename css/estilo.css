@@ -55,7 +55,7 @@ ul,li,a {
 }
 /*fondo de la imagen*/
 .fondoImagen {
-    background-image: url("/imagenes/desktop/fondos.webp");
+    background-image: url(imagenes/desktop/fondos.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -143,7 +143,7 @@ h3{
     display: flex;
 }
 .fotoArbol{
-    background-image: url("/imagenes/desktop/Arbol.webp");
+    background-image: url(imagenes/desktop/Arbol.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
