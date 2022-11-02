@@ -1,0 +1,252 @@
+/*Tipografias*/
+@font-face {
+    font-family: BrotherRegular;
+    src: url("/fonts/Brother1816Printed-Regular.woff2");
+}
+
+@font-face {
+    font-family: BrotherBlack;
+    src: url("/fonts/Brother1816-Black.woff2");
+}
+
+body {  
+    background-color: #506067;
+}
+
+/*containner*/
+.container {
+    padding: 50px;
+    max-width: 100%
+}
+
+
+/*NAV*/
+nav {
+    padding: 20px;
+    background-color: #D5D9D2;
+    display: grid;
+    font-family: BrotherRegular;
+}
+
+.nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9FBFA;
+}
+
+.navegadorListado {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul,li,a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    font-family: BrotherRegular;
+}
+.subscribe {
+    border: 2px solid #000000;
+    padding: 5px;
+
+}
+/*fondo de la imagen*/
+.fondoImagen {
+    background-image: url("/imagenes/desktop/fondos.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    height: 700px;
+    width: 100%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 150px;
+    font-size: 50px;
+    font-family: BrotherBlack;
+}
+h3{
+    height:10px;
+}
+.palabras {
+    font-size: 30%;
+    font-family: BrotherRegular;
+}
+
+.raya {
+    width: 40px;
+    height: 5px;        
+    background-color: #5D6F70;
+}
+
+
+/*MAIN*/
+/*latest articles*/
+.seccion {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    background-color: #E9EAE8;
+    font-family: BrotherRegular;
+    padding: 100px 0px 0px 0px;
+    
+}
+
+.linea {
+    background-color: #000000;
+    height: 2px;
+    width: 40px;
+}
+
+/*las tres fotos*/
+.fotosSeparadas {
+    display: flex;
+    padding: 0px 0px 100px;
+    justify-content: space-around;
+    background-color: #E9EAE8;
+
+}
+
+.primero, .segundo, .tercero {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 10px 5px 2px #888888;  
+    padding: 50px;
+    font-family: BrotherRegular;
+}
+
+.linea1, .linea2, .linea3 {
+    width: 30px;
+    height: 2px;
+    background-color: #000000; 
+}
+
+
+/*ARTICULOS*/
+/*foto y texto*/
+.fotoTexto {
+    display: flex;
+}
+.fotoArbol{
+    background-image: url("/imagenes/desktop/Arbol.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fotoArbol, .texto {
+    width: 50vw;
+    height: 90vh;
+    
+}
+
+.laLinea {
+    width: 30px;
+    height: 2px;
+    background-color: #000000; 
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F1F1F1;
+    font-family: BrotherRegular; 
+    line-height: 30px;
+  
+}
+
+.p{
+    font-size: 15px;
+    text-align: justify;
+    width: 450px;
+    background-color: #F1F1F1;
+    padding: 20px;
+    
+   
+ }
+
+
+ /*FOOTERS*/
+/*seccion para subscribirse*/
+.subscribirse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    font-family: BrotherRegular;
+    background-color: #D5D9D2;
+    height: 50vh
+}
+
+h3 {
+    height: 1vh;
+}
+
+.inputBoton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.input {
+    width: 400px;
+    height: 2vh;
+    padding: 20px;
+    border: none;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: #D5D9D2;
+    
+}
+
+/*iconos*/
+.iconosNav{
+    height: 20vh;
+    background-color:  #F1F1F1;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.iconos{
+    display: flex;
+    width: 10%;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F1F1F1;
+}
+.twitter, .instagram, .facebook, .pinterest{
+    width: 30px;
+}
+.opcionesdelnav{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+
+

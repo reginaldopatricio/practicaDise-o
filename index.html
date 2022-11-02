@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!--NAV-->
+        <nav>
+            <!--FLEX -->
+            <section class="nav">
+                <h1>LO</h1>
+                <!--Flex HIJO (listado)-->
+                <ul class="navegadorListado">
+                    <li class="about"><a href="index.html">ABOUT</a></li>
+                    <li class="articulo"><a href="ARTICLES">SERVICIOS</a></li>
+                    <li class="subscribe"><a href="SUBSCRIBE"></a>SUBSCRIBE</li>
+                </ul>
+            </section>
+            <!--BACKGROUBD IMAGE-->
+            <article class="fondoImagen">
+                <!--FLEX (tema sobre la imagen)-->
+                <article class="titulo">
+                    <h3>LOMBOK</h3>
+                    <p class="palabras">HOLISTIC HEALTH</p>
+                    <hr class="raya">
+                </article>
+            </article>
+        </nav>
+
+        <!--MAIN-->
+        <main>
+            <!--FLEX-->
+            <!--LATEST ARTICLES-->
+            <section class="seccion">  
+                <h3>LATEST ARTICLES</h3>
+                <hr class="linea">   
+            </section>
+            <!--FLEX (LAS TRES IMAGEENS)-->
+            <section class="fotosSeparadas">
+                <figure>
+                    <picture>
+                        <source srcset="
+                                    imagenes/desktop/fondo.webp 1x,
+                                    imagenes/desktop/fondo@2x.webp 2x">
+                        <img class="fotosderecha" src="" alt="1ª paractica">
+                    </picture>
+                    <!--FLEX HIJO (texto bajo la imagen)-->
+                    <figcaption class="primero">
+                        <hr class="linea1">
+                        <p>How to use mindfullness</p>
+                        <p>in your everyday life</p>
+                       
+                    </figcaption>
+                </figure>
+                <figure>
+                    <picture>
+                        <source srcset="
+                                    imagenes/desktop/medio.webp 1x,
+                                    imagenes/desktop/medio@2x.webp 2x">
+                        <img class="fotosdelmedio" src="" alt="1ª paractica">
+                    </picture>
+                    <!--FLEX HIJO (texto bajo la imagen)-->
+                    <figcaption class="segundo">
+                        <hr class="linea2">
+                        <p>What are the best walking</p>
+                        <p>meditation</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <picture>
+                        <source srcset="
+                                    imagenes/desktop/izquierda.webp 1x,
+                                    imagenes/desktop/izquierda@2x.webp 2x">
+                        <img class="fotosIzquierda" src="" alt="1ª paractica">
+                    </picture>
+                    <!--FLEX HIJO (texto bajo la imagen)-->
+                    <figcaption class="tercero">
+                        <hr class="linea3">
+                        <p>How to use mindfullness</p>
+                        <p>in your everyday life</p>
+                    </figcaption>
+                </figure>
+            </section>
+        </main>
+
+        <!--ARTICULOS-->
+        <!--FLEX PADRE DE LA FOTO Y EL TEXTO-->
+        <section class="fotoTexto">
+            <!--BACKGROUBD IMAGE-->
+            <article class="fotoArbol">
+
+            </article>
+            <!--FLEX HIJO-->
+            <!--TEXTO-->
+            <article class="texto">
+                <h1>ABOUT</h1>
+                <hr class="laLinea">
+                <p class="p">Since 1993 we have roamed is a blog from the earliest years.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat
+                </p>
+            </article>
+        </section>
+
+        <!--FOOTER-->
+        <footer>
+            <!--FLEX PADRE PARA SUBSCRIBIRSE-->
+            <section class="subscribirse">
+                <h3>SUBSCRIBE</h3>
+                <p>Sign-up to our newsletter</p>
+                <!--FLEX HIJO-->
+                <section class="inputBoton">
+                    <input class="input" value="Your email">
+                    <button class="button">SUBMIT</button>
+                </section>
+            </section>
+            <!--FLEX ICONOS Y OPCIONES DEL NAV-->
+            <section class="iconosNav">
+                <!--FLEX HIJO (iconos)-->
+                <section class="iconos">
+                    <img class="twitter" src="/imagenes/svg/twitter.svg">
+                    <img class="instagram" src="/imagenes/svg/instagram.svg">
+                    <img class="facebook" src="/imagenes/svg/facebook.svg">
+                    <img class="pinterest" src="/imagenes/svg/pinterest.svg">
+                </section>
+                <!--FLEX HIJO (opciones del nav)-->
+                <ul class="opcionesdelnav">
+                    <li class="about2"><a href="index.html">ABOUT</a></li>
+                    <li class="articulo2"><a href="ARTICLES">SERVICIOS</a></li>
+                    <li class="subscribe2"><a href="SUBSCRIBE"></a>SUBSCRIBE</li>
+                </ul>
+            </section>
+        </footer>
+    </div>
+</body>
+
+</html>
